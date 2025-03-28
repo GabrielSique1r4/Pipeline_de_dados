@@ -1,5 +1,3 @@
-from datetime import datetime
-
 import pandas as pd
 
 # Atividade 01 e 02
