@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Atividade 01 e 02
+# Atividade 01 e 02 e 03
 arquivo = "C:/Users/Julio/Downloads/dados_vendas.csv"
 df = pd.read_csv(arquivo, encoding='ISO-8859-1', sep=';')
 
@@ -18,4 +18,7 @@ df.preco_unitario = df.groupby('id_produto')['preco_unitario'].transform(lambda 
 df['quantidade'] = df['quantidade'].abs()
 df.info()
 
+# atividade 04
+
+# atividade 05
 
